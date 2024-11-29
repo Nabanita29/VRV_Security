@@ -70,12 +70,13 @@ Follow these steps to get the project running locally:
    The server will start on port 3000 by default. You can change this in the .env file.
 
 ## 🛡️ Security Considerations
-**JWT Authentication**: JWT tokens are used for secure, stateless authentication. Ensure that the secret key is kept safe.
-**Rate Limiting**: Protects against DDoS attacks by limiting the number of requests a user can make.
-**Password Hashing**: User passwords are hashed using bcrypt to ensure they are securely stored in the database.
-**Input Validation**: User inputs are validated and sanitized to prevent common attacks such as XSS and SQL Injection.
+**JWT Authentication**: JWT tokens are used for secure, stateless authentication. Ensure that the secret key is kept safe.   
+**Rate Limiting**: Protects against DDoS attacks by limiting the number of requests a user can make.   
+**Password Hashing**: User passwords are hashed using bcrypt to ensure they are securely stored in the database.   
+**Input Validation**: User inputs are validated and sanitized to prevent common attacks such as XSS and SQL Injection.   
 
 ## 📈 Advanced Features
-**Permission-Based Access Control**: Ensure that users can only access endpoints they're authorized for based on their roles and permissions.
-**Logging and Monitoring**: All login attempts, role assignments, and permission changes are logged for auditing purposes.
-**Scalable Design**: Built with scalability in mind, ready to be extended to a multi-service architecture if required.
+**Permission-Based Access Control**: Ensure that users can only access endpoints they're authorized for based on their roles and permissions.   
+**Logging and Monitoring**: All login attempts, role assignments, and permission changes are logged for auditing purposes.   
+**Scalable Design**: Built with scalability in mind, ready to be extended to a multi-service architecture if required.   
+ 
