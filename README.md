@@ -35,11 +35,6 @@ Welcome to the **Advanced Secure User Authentication & Role-Based Access Control
 - **Centralized Authentication Service:** Scalable design for handling multiple microservices or systems, ensuring future-proofing.
 
 ---
-### Working of the Application
-**Hashed Passwords in Database**
-![Screenshot 2024-11-26 192535](https://github.com/user-attachments/assets/a4ee2838-e77f-4fb6-8b2d-60ce66ff34f0)
-
----
 ## ⚙️ Prerequisites
 
 Before running the project, ensure that you have the following installed:
